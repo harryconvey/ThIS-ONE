@@ -1,5 +1,6 @@
 
 <p id="notice"><%= notice %></p>
+<div class="well"
 <p>
  <h1>
  <%= @status.user.full_name %>
@@ -10,6 +11,7 @@
 <p>
 <large><%= @status.content %></large>
 </p>
+</div>
 
 
 <%= link_to 'Edit', edit_status_path(@status) %> |

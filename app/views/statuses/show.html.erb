@@ -1,5 +1,4 @@
 <p id="notice"><%= notice %></p>
-<div class="well">
 <p>
   <b>Name:</b>
   <%= @status.user.full_name %>
@@ -8,10 +7,6 @@
 <p>
   <b>Content:</b>
   <%= @status.content %>
-  <div class="meta">
-        <%= link_to time_ago_in_words(status.created_at) + " ago", status %> 
 </p>
-</div>
-
 <%= link_to 'Edit', edit_status_path(@status) %> |
 <%= link_to 'Back', statuses_path %>

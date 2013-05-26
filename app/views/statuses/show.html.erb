@@ -2,15 +2,15 @@
 <p id="notice"><%= notice %></p>
 <p>
  <h1>
-  <%= @status.user.full_name %>
+  <legend><%= @status.user.full_name %><legend>
    <small><%= time_ago_in_words(@status.created_at) + " ago" %></small>
  </h1>
 </p>
 
 <p>
-<h5>
+<small>
   <%= @status.content %>
-</h5>
+</small>
 </p>
 
 

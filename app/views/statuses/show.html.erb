@@ -2,7 +2,6 @@
 <p id="notice"><%= notice %></p>
 <div class="well">
 <p>
-<div><%= image_tag status.user.gravatar_url %></div> 
  <h1>
  <%= @status.user.full_name %>
    <small><%= time_ago_in_words(@status.created_at) + " ago" %></small>

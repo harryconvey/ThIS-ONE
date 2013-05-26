@@ -3,7 +3,7 @@
 <div class="well"
 <p>
  <h1>
- <%= @status.user.full_name %>
+ <%= image_tag status.user.gravatar_url %><%= @status.user.full_name %>
    <small><%= time_ago_in_words(@status.created_at) + " ago" %></small>
  </h1>
 </p>

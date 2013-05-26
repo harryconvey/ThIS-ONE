@@ -2,7 +2,7 @@
 <p id="notice"><%= notice %></p>
 <p>
  <h1>
-  <legend><%= @status.user.full_name %><legend>
+ <%= @status.user.full_name %>
    <small><%= time_ago_in_words(@status.created_at) + " ago" %></small>
  </h1>
 </p>
